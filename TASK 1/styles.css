@@ -1,0 +1,205 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e2723;
+    padding: 20px 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.about-section {
+    position: relative;
+    height: 500px;
+    background: url('images/bgchocolate.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    margin: 0;
+}
+
+.about-section p {
+    font-size: 24px;
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about-section button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.about-section button:hover {
+    background-color: #a72a1a;
+}
+
+.varieties-section, .services-section, .testimonials-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9c1b8;
+}
+
+.varieties-section h2, .services-section h2, .testimonials-section h2, .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.varieties-section h2::after, .services-section h2::after, .testimonials-section h2::after, .contact-section h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #d32f2f;
+    margin: 10px auto 0;
+}
+
+.varieties-section .chocolates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.varieties-section .chocolate-item {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.varieties-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.varieties-section img:hover {
+    transform: scale(1.05);
+}
+
+.services-section .services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.services-section .service-item {
+    flex: 1 1 calc(45% - 20px);
+    max-width: calc(45% - 20px);
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.services-section .service-item:hover {
+    transform: scale(1.05);
+}
+
+.services-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.testimonials-section .testimonial-item {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-section input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #a72a1a;
+}
+footer a {
+    color: #ef824f;
+    text-decoration: none;
+  }
+footer {
+    background-color: #3e2723;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

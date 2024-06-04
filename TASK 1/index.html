@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Factory</title>
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Discover Us</a></li>
+                <li><a href="#varieties">Our Delights</a></li>
+                <li><a href="#services">What We Offer</a></li>
+                <li><a href="#testimonials">Happy Customers</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Chocolate Factory Logo">
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="background-image">
+                <h1>Welcome to Chocolate Factory</h1>
+                <p>"Life is like a box of chocolates, you never know what you're gonna get."</p>
+                <button onclick="document.getElementById('contact').scrollIntoView();">Shop Now</button>
+            </div>
+        </section>
+
+        <section id="varieties" class="varieties-section">
+            <h2>Our Delights</h2>
+            <div class="chocolates">
+                <div class="chocolate-item">
+                    <img src="images/dark.jpg" alt="photo of dark chocolate" />
+                    <h4>Dark Chocolate</h4>
+                    <p>
+                      Rich and intense, made with the finest cocoa beans. Perfect for true chocolate lovers.
+                    </p>
+                </div>
+                <div class="chocolate-item">
+                    <img src="images/milk.jpg" alt="photo of milk chocolate" />
+                     <h4>Milk Chocolate</h4>
+                   <p>
+                         Smooth and creamy, a timeless favorite for all ages.
+                     </p>
+                </div>
+                <div class="chocolate-item">
+                    <img src="images/white.jpg" alt="photo of white chocolate" />
+                  <h4>White Chocolate</h4>
+                     <p>
+                        Sweet and velvety, a delightful treat for those with a sweet tooth.
+                     </p>
+                </div>
+                <div class="chocolate-item">
+                    <img src="images/hazelnut.jpg" alt="photo of hazelnut chocolate" />
+                     <h4>Hazelnut Chocolate</h4>
+                     <p>
+                      Crunchy hazelnuts embedded in smooth chocolate. A match made in heaven.
+                    </p>
+                </div>
+                <div class="chocolate-item">
+                    <img src="images/caramel.jpg" alt="photo of caramel chocolate" />
+                 <h4>Caramel Chocolate</h4>
+                   <p>
+                     Silky caramel encased in rich chocolate. An irresistible combination.
+                     </p>
+                </div>
+                <div class="chocolate-item">
+                    <img src="images/mint.jpg" alt="photo of mint chocolate" />
+                      <h4>Mint Chocolate</h4>
+                      <p>
+                      Refreshing mint flavor blended with smooth chocolate. A cool twist on a classic.
+                     </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>What We Offer</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>Custom Chocolate Boxes</h3>
+                    <p>Create your own chocolate box with your favorite varieties.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Chocolate Catering</h3>
+                    <p>We provide chocolate catering services for events and parties.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Corporate Gifts</h3>
+                    <p>Perfect gifts for your clients and employees.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Workshops</h3>
+                    <p>Join our chocolate-making workshops and learn from the experts.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2>Happy Customers</h2>
+            <div class="testimonial-item">
+                <p>"The best chocolates I've ever tasted. Each bite is pure bliss!"</p>
+                <h4>- John Cena</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"Exceptional quality and fast delivery. Highly recommend Milk Chocolate!"</p>
+            <h4>- Salman Khan</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"I can't get enough of their hazelnut chocolate. Simply divine!"</p>
+                <h4>- Tripti Dimri</h4>
+              </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <h6>To make an order or just to know more contact us :</h6>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Created by
+        <a href="#">Kuldeep Kawale</a>
+      </footer>
+</body>
+</html>
